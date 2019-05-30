@@ -1,0 +1,307 @@
+{
+	"id": "f214966f-9af7-4fa4-8ed8-8d537bef6318",
+	"name": "sql-massive-node",
+	"allTests": [],
+	"timestamp": "2019-05-30T21:36:54.781Z",
+	"collection_id": "799fc083-5779-44d3-a9ba-be9f5e5bd023",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "799fc083-5779-44d3-a9ba-be9f5e5bd023",
+		"name": "sql-massive-node",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"8faf2a3a-daa2-4bb2-97df-3b32b91529f2",
+			"0b87068f-02d5-4a9c-ab29-81f364743264",
+			"1c26dec2-4dae-4d62-8e6f-52e66c25fae3",
+			"3a240bea-26d7-4b49-a3f4-e05695657fa1",
+			"2b482af1-8fea-4c6f-b23d-3c33fe0e2dc2",
+			"447a4760-7ae6-43a7-9319-9ddcb60962bb",
+			"434ef91f-3652-40f5-8edf-0d986143ab02",
+			"f44b231f-5b52-485f-a49c-af052916f221",
+			"c8c115aa-7baf-4f5e-a89e-6fb839ccc5de",
+			"eb700397-74ca-4122-8869-29054d4c6283",
+			"b01589b7-107a-451c-a62e-bf65a930166a"
+		],
+		"folders_order": [],
+		"owner": "0",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": null,
+	"results": [
+		{
+			"name": "Add product0 to database",
+			"id": "8faf2a3a-daa2-4bb2-97df-3b32b91529f2",
+			"url": "http://localhost:3000/api/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"50"
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			],
+			"time": "50",
+			"totalRequestTime": "50",
+			"iterationResults": {}
+		},
+		{
+			"name": "Add product1 to database",
+			"id": "0b87068f-02d5-4a9c-ab29-81f364743264",
+			"url": "http://localhost:3000/api/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"4"
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			],
+			"time": "4",
+			"totalRequestTime": "4",
+			"iterationResults": {}
+		},
+		{
+			"name": "Add product2 to database",
+			"id": "1c26dec2-4dae-4d62-8e6f-52e66c25fae3",
+			"url": "http://localhost:3000/api/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"4"
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			],
+			"time": "4",
+			"totalRequestTime": "4",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get all products",
+			"id": "3a240bea-26d7-4b49-a3f4-e05695657fa1",
+			"url": "http://localhost:3000/api/products",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"tests": {
+				"API can create and read products": false
+			},
+			"testPassFailCounts": {
+				"API can create and read products": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				"51"
+			],
+			"allTests": [
+				{
+					"API can create and read products": false
+				}
+			],
+			"time": "51",
+			"totalRequestTime": "51",
+			"iterationResults": {}
+		},
+		{
+			"name": "Get specific product",
+			"id": "2b482af1-8fea-4c6f-b23d-3c33fe0e2dc2",
+			"url": "http://localhost:3000/api/products/{{productID_0}}",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"113"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "113",
+			"totalRequestTime": "113",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 4,
+	"totalTime": 222,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "Add product0 to database",
+			"id": "8faf2a3a-daa2-4bb2-97df-3b32b91529f2",
+			"url": "http://localhost:3000/api/products",
+			"time": "2019-05-30T21:36:54.781Z",
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Add product1 to database",
+			"id": "0b87068f-02d5-4a9c-ab29-81f364743264",
+			"url": "http://localhost:3000/api/products",
+			"time": "2019-05-30T21:36:54.781Z",
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Add product2 to database",
+			"id": "1c26dec2-4dae-4d62-8e6f-52e66c25fae3",
+			"url": "http://localhost:3000/api/products",
+			"time": "2019-05-30T21:36:54.781Z",
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Get all products",
+			"id": "3a240bea-26d7-4b49-a3f4-e05695657fa1",
+			"url": "http://localhost:3000/api/products",
+			"time": "2019-05-30T21:36:54.781Z",
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"testPassFailCounts": {
+				"API can create and read products": {
+					"pass": 0,
+					"fail": 1
+				}
+			}
+		},
+		{
+			"name": "Get specific product",
+			"id": "2b482af1-8fea-4c6f-b23d-3c33fe0e2dc2",
+			"url": "http://localhost:3000/api/products/{{productID_0}}",
+			"time": "2019-05-30T21:36:54.781Z",
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error",
+				"detail": {
+					"name": "Internal Server Error",
+					"detail": "A generic error message, given when no more specific message is suitable."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
